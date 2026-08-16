@@ -1,0 +1,22 @@
+:root{
+    --cor-principal:#6b3e1e;
+    --cor-secundaria: #f5dfc3;
+    --cor-fundo: #fffaf2;
+    --cor-texto: #2f2118;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 60px;
+    background-color: var(--cor-secundaria);
+}
