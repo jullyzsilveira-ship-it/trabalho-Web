@@ -19,6 +19,7 @@ header{
     align-items: center;
     padding:15px 60px;
     background-color: var(--cor-secundaria);
+    box-shadow: 0 5px 15px rgba(80, 45, 20, 0.20);
 }
 
 .logo{
@@ -26,6 +27,18 @@ header{
     align-items: center;
     gap: 10px;
 
+    background-image: url("imagens/pokebola.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+
+    padding-left: 50px;
+
+}
+
+.logo h1{
+    margin: 0;
+    color: var(--cor-principal);
 }
 
 nav{
@@ -34,7 +47,28 @@ nav{
 }
 
 nav a{
-    color: var(--cor-texto);
+    color: var(--cor-principal);
     text-decoration: none;
     font-weight: bold;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    border-bottom: 3px solid var(--cor-principal) ;
+}
+
+.inicio{
+    background-image: url("imagens/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.inicio_texto h2{
+    margin: 0;
 }
