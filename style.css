@@ -51,3 +51,23 @@ nav a{
     margin-bottom: 35px;
 }
     
+nav a:hover{
+    border-bottom: 3px solid var(--cor-principal) ;
+}
+
+.inicio{
+    background-image: url("imagens/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.inicio_texto h2{
+    margin: 0;
+}
+
+>>>>>>> 971204c66d7e0dea648e1b0504ba2bd6a6edffbc
