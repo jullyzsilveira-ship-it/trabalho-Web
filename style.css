@@ -47,9 +47,11 @@ nav{
 }
 
 nav a{
-    color: var(--cor-texto);
+    color: var(--cor-principal);
     text-decoration: none;
     font-weight: bold;
+    padding-bottom: 5px;
+    transition: 0.3s;
 }
 
 .evolucoes {
@@ -83,4 +85,3 @@ nav a:hover{
     margin: 0;
 }
 
->>>>>>> 971204c66d7e0dea648e1b0504ba2bd6a6edffbc
