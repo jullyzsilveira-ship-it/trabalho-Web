@@ -71,6 +71,10 @@ nav a:hover{
 }
 
 .inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     background-image: url("imagens/fundo.png");
     background-size: cover;
     background-position: center;
@@ -83,5 +87,19 @@ nav a:hover{
 
 .inicio_texto h2{
     margin: 0;
+}
+
+.inicio_texto{
+    width: 45%;
+}
+
+.inicio_eevee{
+    background-image: url("imagens/eevee1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 50%;
+    height: 400px;
 }
 
