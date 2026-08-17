@@ -81,16 +81,45 @@ nav a:hover{
     background-repeat: no-repeat;
 
     min-height: 500px;
-    padding: 60px;
+    padding: 40px 80px;
     box-sizing: border-box;
 }
 
 .inicio_texto h2{
+    font-size: 70px;
+    color: #6b3e18;
     margin: 0;
 }
 
+.inicio_texto h3{
+    font-size: 28px;
+    color:#6b3e18;
+    margin:0 0 20px 0;
+}
+
+.inicio_texto p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #3f2a1d;
+    max-width: 500px;
+}
 .inicio_texto{
     width: 45%;
+}
+.inicio_texto a{
+    display: inline-block;
+    background-color: #6b3e18;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.inicio_texto a:hover{
+    background-color: #8a5428;
+    transform: translateY(-3px);
 }
 
 .inicio_eevee{
