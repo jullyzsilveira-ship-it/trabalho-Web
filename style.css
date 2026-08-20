@@ -63,6 +63,10 @@ nav a{
     transition: 0.3s;
 }
 
+/* =========================
+   SEÇÃO EVOLUÇÕES
+========================= */
+
 .evolucoes {
     padding: 50px 7%;
     background-color: #fffaf4;
@@ -74,6 +78,193 @@ nav a{
     color: #5b3318;
     margin-bottom: 35px;
 }
+
+/* GRID DOS CARDS */
+
+.cards.evolucoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+    gap: 14px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+
+    display: flex;
+    align-items: center;
+    min-height: 165px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    overflow: hidden;
+    align-items: center;
+    min-height: 165px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+
+
+/* Efeito quando passar o mouse */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   IMAGEM DO POKÉMON
+========================= */
+.card img {
+    width: 145px;
+
+    height: 140px;
+
+    object-fit: contain;
+
+    flex-shrink: 0;
+}
+
+/* =========================
+   INFORMAÇÕES
+========================= */
+
+.card-info {
+    padding-left: 5px;
+}
+
+.card-info h3 {
+    margin: 0 0 8px;
+
+    font-size: 22px;
+
+    color: #24160e;
+}
+
+.card-info span {
+    display: inline-block;
+
+    padding: 4px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    margin: 0 0 8px;
+
+    color: #39291f;
+}
+
+.card-info a {
+    color: #704019;
+
+    font-size: 25px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   CORES DOS CARDS
+========================= */
+
+.eevee {
+    background-color: #ecd0ad;
+}
+
+.eevee span {
+    background-color: #dfc5a5;
+}
+
+
+.vaporeon {
+    background-color: #b9d9ef;
+}
+
+.vaporeon span {
+    background-color: #69a9df;
+}
+
+
+.jolteon {
+    background-color: #f9df91;
+}
+
+.jolteon span {
+    background-color: #f5c928;
+}
+
+
+.flareon {
+    background-color: #f5c49d;
+}
+
+.flareon span {
+    background-color: #ed9b62;
+}
+
+
+.espeon {
+    background-color: #d9b9df;
+}
+
+.espeon span {
+    background-color: #bd8cc5;
+}
+
+
+.umbreon {
+    background-color: #aeb0b1;
+}
+
+.umbreon span {
+    background-color: #8c8e8f;
+}
+
+
+.leafeon {
+    background-color: #c8dfb9;
+}
+
+.leafeon span {
+    background-color: #91c477;
+}
+
+
+.glaceon {
+    background-color: #b9dce9;
+}
+
+.glaceon span {
+    background-color: #83c5d8;
+}
+
+
+.sylveon {
+    background-color: #f5c3d3;
+}
+
+.sylveon span {
+    background-color: #ec8fb0;
+}
+
+
+
     
 nav a:hover{
     border-bottom: 3px solid var(--cor-principal) ;
