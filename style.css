@@ -38,7 +38,7 @@ header{
 
     background-image: url("imagens/pokebola.png");
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 55px;
     background-position: left center;
 
     padding-left: 50px;
@@ -53,6 +53,9 @@ header{
 nav{
     display: flex;
     gap: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 nav a{
@@ -332,3 +335,57 @@ nav a:hover{
     height: 520px;
 }
 
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url("imagens/fundo_atualizado.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+    padding: 60px 80px;
+    box-sizing: border-box;
+
+}
+
+.sobre_texto h3{
+    font-size: 50px;
+    color: #6b3e18;
+    margin: 0 0 20px 0;
+}
+.sobre_texto p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #3f2a1d;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+.sobre_texto{
+    width: 45%;
+}
+.sobre_texto a{
+    display: inline-block;
+    background-color: #6b3e18;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.sobre_texto a:hover{
+    background-color: #8a5428;
+    transform: translateY(-3px);
+}
+.sobre_eevee{
+    background-image: url("imagens/eevee_fundo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    width: 50%;
+    height: 450px;
+}
